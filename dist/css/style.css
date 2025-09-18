@@ -1,0 +1,39 @@
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fff;
+}
+.btn.primary {
+  background-color: #3498db;
+}
+.btn.primary:hover {
+  background-color: #1e5f8a;
+}
+.btn.secondary {
+  background-color: #2ecc71;
+}
+.btn.secondary:hover {
+  background-color: #166939;
+}
+.btn.danger {
+  background-color: #e74c3c;
+}
+.btn.danger:hover {
+  background-color: #691f17;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+h1 {
+  color: #3498db;
+}/*# sourceMappingURL=style.css.map */
